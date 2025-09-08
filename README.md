@@ -48,7 +48,6 @@ conda activate awsml
 pip install -r requirements.txt
 ```
 
-HEAD
 
 3. Run the notebook:
 
