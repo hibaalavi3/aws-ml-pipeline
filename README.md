@@ -14,6 +14,7 @@ The project is structured for cloud-ready deployment using AWS.
 - Jupyter Notebook
 
 ## Project Structure
+```
 aws-ml-pipeline/
 ```
 ├─ data/ # MNIST dataset (ignored in Git)
@@ -35,12 +36,23 @@ cd aws-ml-pipeline
 
 2. Create conda environment:
 ```bash
+
+cd aws-ml-pipeline 
+```
+
+
+## 2. Create conda environment:
+```bash 
+
 conda create -n awsml python=3.10
 conda activate awsml
 pip install -r requirements.txt
 ```
 
-4. Run the notebook:
+HEAD
+
+3. Run the notebook:
+
 Open notebooks/mnist_training.ipynb in Jupyter or VS Code
 Train and evaluate the model
 
