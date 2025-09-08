@@ -14,7 +14,6 @@ The project is structured for cloud-ready deployment using AWS.
 - Jupyter Notebook
 
 ## Project Structure
-```
 aws-ml-pipeline/
 ```
 ├─ data/ # MNIST dataset (ignored in Git)
